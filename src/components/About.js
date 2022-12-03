@@ -5,6 +5,7 @@ function About() {
     <section>
       <h1 id="about">Renée Hamlin</h1>
       <br />
+
       <p>
         With a background in education and writing, Renée has long had an
         interest in developing interesting, dynamic web applications. She looks

@@ -1,13 +1,44 @@
+* {
+  /* background-image: url("/assets/images/darksky.png"); */
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /*background-image: url("./assets/images/darksky.png");*/
+  background-color: #52416f;
+  color: #afa8ba;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.section-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+ul {
+  list-style-type: none; /* Remove bullets */
+  padding: 15; /* Remove padding */
+  margin: 0; /* Remove margins */
+  display: flex;
+  justify-content: space-around;
+}
+
+p {
+  margin: 35px;
+}
+h1 {
+  margin: 15px;
+}
+
+h2 {
+  margin: 15px;
 }

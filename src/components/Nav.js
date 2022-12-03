@@ -18,8 +18,8 @@ const categories = [
 function Nav({ setCurrentPageprop }) {
   return (
     <header>
-      <nav>
-        <ul className="flex-row">
+      <nav id="section-links">
+        <ul id="navbar-style" className="flex-row">
           <li className="mx-2">
             <span onClick={() => setCurrentPageprop("About")}>About Me</span>
           </li>

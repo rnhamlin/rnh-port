@@ -6,6 +6,12 @@ function Contact() {
       <h2>Contact</h2>
       <br />
       <p>I would love to hear from you!</p>
+      <form>
+        <label>
+          Enter your name:
+          <input type="text" />
+        </label>
+      </form>
     </section>
   );
 }
