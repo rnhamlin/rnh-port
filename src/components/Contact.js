@@ -8,8 +8,16 @@ function Contact() {
       <p>I would love to hear from you!</p>
       <form>
         <label>
-          Enter your name:
+          Name: 
           <input type="text" />
+        </label>
+        <label>
+          Email Address: 
+          <input type="text"/>
+        </label>
+        <label>
+          Message: 
+          <input type="text"/>
         </label>
       </form>
     </section>
