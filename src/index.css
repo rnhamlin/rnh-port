@@ -1,15 +1,14 @@
-/* * {
-  background-image: url("/assets/images/darksky.png");
-} */
+* {
+}
 
 body {
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /*background-image: url("./assets/images/darksky.png");*/
-  background-color: #52416f;
-  color: #afa8ba;
+  background-color: #2e235c;
+  background-image: linear-gradient(180deg, #2e235c 49%, #dbacd1 100%);
+  background-repeat: repeat-n;
 }
 
 code {
@@ -32,13 +31,23 @@ ul {
   justify-content: space-around;
 }
 
-p {
+/* p {
   margin: 35px;
-}
+} */
 h1 {
   margin: 15px;
 }
 
 h2 {
   margin: 15px;
+}
+
+#photo-bio {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+#bio-p {
+  margin: 20px;
 }
