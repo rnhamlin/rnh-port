@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.js": "/rnh-port/static/js/main.68d3ee4c.js",
+    "static/js/787.80c9a3b8.chunk.js": "/rnh-port/static/js/787.80c9a3b8.chunk.js",
+    "static/media/smart-homies.png": "/rnh-port/static/media/smart-homies.faa4c0fcfedc0ce07697.png",
+    "static/media/Renee.png": "/rnh-port/static/media/Renee.b19b711e0d197f553f7b.png",
+    "static/media/dark-fragments.png": "/rnh-port/static/media/dark-fragments.7bf7e68682ebea8407e1.png",
+    "static/media/weather.png": "/rnh-port/static/media/weather.5ad046dcee1465097318.png",
+    "static/media/rh-resume.pdf": "/rnh-port/static/media/rh-resume.ba1e1f0379b901d08544.pdf",
+    "static/media/music-en-vivo.png": "/rnh-port/static/media/music-en-vivo.b349fa4844ed30883629.png",
+    "static/media/scheduler.png": "/rnh-port/static/media/scheduler.2593672f0376b6ff3f83.png",
+    "static/media/password.png": "/rnh-port/static/media/password.35ba7101c4a6ab95aa30.png",
+    "index.html": "/rnh-port/index.html",
+    "main.68d3ee4c.js.map": "/rnh-port/static/js/main.68d3ee4c.js.map",
+    "787.80c9a3b8.chunk.js.map": "/rnh-port/static/js/787.80c9a3b8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.68d3ee4c.js"
+  ]
+}
