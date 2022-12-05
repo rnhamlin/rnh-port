@@ -21,14 +21,24 @@ function Nav({ setCurrentPageprop }) {
       <nav id="section-links">
         <ul id="navbar-style" className="flex-row">
           <li className="mx-2">
-            <span onClick={() => setCurrentPageprop("About")}>About Me</span>
+            <span
+              onClick={() => setCurrentPageprop("About")}
+              style={{ cursor: "pointer" }}>
+              About Me
+            </span>
           </li>
           <li>
-            <span onClick={() => setCurrentPageprop("Contact")}>Contact</span>
+            <span
+              onClick={() => setCurrentPageprop("Contact")}
+              style={{ cursor: "pointer" }}>
+              Contact
+            </span>
           </li>
           {categories.map((category) => (
             <li className="mx-1" key={category.name}>
-              <span onClick={() => setCurrentPageprop(category.name)}>
+              <span
+                onClick={() => setCurrentPageprop(category.name)}
+                style={{ cursor: "pointer" }}>
                 {category.name}
               </span>
             </li>

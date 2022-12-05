@@ -7,26 +7,28 @@ function Contact() {
     // if event (!value="")
     if (event.target.value === "") {
       console.log("I need to throw an error");
-      setErrorMessage("error-message");
+      setErrorMessage("All fields are required.");
     } else {
       setErrorMessage("");
     }
   }
   return (
-    <section className="formparent">
+    <section>
       <h2>Contact</h2>
       <br />
-      <p>I would love to hear from you!</p>
-      {errorMessage !== "" ? <h3>{errorMessage}</h3> : <></>}
-      <form className="contactform">
-        <label>Name:</label>
-        <input onBlur={handleChange} className="form-input" type="text" />
-        <label>Email Address:</label>
-        <input onBlur={handleChange} className="form-input" type="text" />
-        <label>Message:</label>
-        <textarea onBlur={handleChange} className="form-input" type="text" />
-        <button>Send email!</button>
-      </form>
+      <div className="formparent">
+        <p>I would love to hear from you!</p>
+        {errorMessage !== "" ? <h3>{errorMessage}</h3> : <></>}
+        <form className="contactform">
+          <label>Name:</label>
+          <input onBlur={handleChange} className="form-input" type="text" />
+          <label>Email Address:</label>
+          <input onBlur={handleChange} className="form-input" type="text" />
+          <label>Message:</label>
+          <textarea onBlur={handleChange} className="form-input" type="text" />
+          <button>Send email!</button>
+        </form>
+      </div>
     </section>
   );
 }

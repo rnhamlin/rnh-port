@@ -9,6 +9,8 @@ import Proj6 from "../assets/images/password.png";
 function Portfolio() {
   return (
     <section>
+      <h2>Portfolio</h2>
+      <br />
       <div class="flex-container" id="gallery">
         <div>
           <a

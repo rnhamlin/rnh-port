@@ -8,10 +8,15 @@ function Foot() {
       <p>Made with 🌌 by Renée Hamlin</p>
       {/* icons for social go here */}
       <section id="social-media">
-        <img src={GithubLogo} alt="GitHub" height={45} />
-        <img src={LinkedInLogo} alt="LinkedIn" height={45} />
-        {/* <img src="./assets/images/GitHub-Mark-64px.png" alt="Github" />
-        <img src="./assets/images/Linked" alt="LinkedIn" /> */}
+        <a href="https://github.com/rnhamlin" target="_blank" rel="noreferrer">
+          <img src={GithubLogo} alt="GitHub" height={45} />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/reneehamlin/"
+          target="_blank"
+          rel="noreferrer">
+          <img src={LinkedInLogo} alt="LinkedIn" height={45} />
+        </a>
       </section>
     </footer>
   );
