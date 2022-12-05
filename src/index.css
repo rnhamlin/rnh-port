@@ -4,7 +4,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #2e235c;
-  background-image: linear-gradient(180deg, #2e235c 69%, #dbacd1 100%);
+  background-image: linear-gradient(180deg, #2e235c 69%, #f6f3eb 100%);
   background-repeat: no-repeat;
   height: 100vh;
   color: #a29db5;
@@ -108,7 +108,23 @@ footer {
 /* Contact styling */
 
 .contactform {
-  display: 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid red;
+  width: 25%;
+  padding: 20px;
+  /* background-color: #a29db5; */
+}
+
+.formparent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-input {
+  margin-bottom: 15px;
 }
 
 /* Resume styling */
