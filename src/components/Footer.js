@@ -1,6 +1,6 @@
 import React from "react";
-// import GithubLogo from "./assets/images/GitHub-Mark-64px.png";
-// import LinkLogo from "./assets/images/Linked.png";
+import GithubLogo from "../assets/images/GitHub-Mark-64px.png";
+import LinkedInLogo from "../assets/images/Linked.png";
 
 function Foot() {
   return (
@@ -8,8 +8,10 @@ function Foot() {
       <p>Made with 🌌 by Renée Hamlin</p>
       {/* icons for social go here */}
       <section id="social-media">
-        <img src="./assets/images/GitHub-Mark-64px.png" alt="Github" />
-        <img src="./assets/images/Linked" alt="LinkedIn" />
+        <img src={GithubLogo} alt="GitHub" height={45} />
+        <img src={LinkedInLogo} alt="LinkedIn" height={45} />
+        {/* <img src="./assets/images/GitHub-Mark-64px.png" alt="Github" />
+        <img src="./assets/images/Linked" alt="LinkedIn" /> */}
       </section>
     </footer>
   );

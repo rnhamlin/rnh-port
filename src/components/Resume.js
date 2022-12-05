@@ -5,7 +5,10 @@ function Resume() {
     <section>
       <h2>Resume</h2>
       <br />
-      <p> resume content + downloadable resume here</p>
+      <p>
+        {" "}
+        Downloadable resume TBA. Please contact me directly with any questions!
+      </p>
     </section>
   );
 }

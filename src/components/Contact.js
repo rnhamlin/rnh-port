@@ -6,7 +6,7 @@ function Contact() {
       <h2>Contact</h2>
       <br />
       <p>I would love to hear from you!</p>
-      <form>
+      <form class="contactform">
         <label>
           Name: 
           <input type="text" />
