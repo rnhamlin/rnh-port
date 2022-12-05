@@ -1,5 +1,6 @@
 import { findByLabelText } from "@testing-library/react";
 import React from "react";
+import MyPhoto from "../assets/images/Renee.png";
 
 function About() {
   return (
@@ -7,7 +8,7 @@ function About() {
       <h1 id="about">Renée Hamlin</h1>
       <br />
       <div id="photo-bio">
-        <img src="assets/images/Renee.png" height={250} alt="Renee" />
+        <img src={MyPhoto} height={250} alt="Renee" />
         <p id="bio-p">
           With a background in education and writing, Renée has long had an
           interest in developing interesting, dynamic web applications. She
