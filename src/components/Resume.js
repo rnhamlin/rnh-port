@@ -1,6 +1,8 @@
+// Import React and other file(s) for Resume page.
 import React from "react";
 import ResumeDoc from "../assets/files/rh-resume.pdf";
 
+// Build Resume Section below.
 function Resume() {
   return (
     <section>
@@ -35,4 +37,5 @@ function Resume() {
   );
 }
 
+// Connect resume to other components/App.js
 export default Resume;

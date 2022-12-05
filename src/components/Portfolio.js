@@ -1,3 +1,5 @@
+// Import react and project images
+
 import React from "react";
 import Proj1 from "../assets/images/music-en-vivo.png";
 import Proj2 from "../assets/images/smart-homies.png";
@@ -6,6 +8,7 @@ import Proj4 from "../assets/images/weather.png";
 import Proj5 from "../assets/images/scheduler.png";
 import Proj6 from "../assets/images/password.png";
 
+// Create a section for the Portfolio content.
 function Portfolio() {
   return (
     <section>
@@ -66,4 +69,5 @@ function Portfolio() {
   );
 }
 
+// Export Portfolio component.
 export default Portfolio;

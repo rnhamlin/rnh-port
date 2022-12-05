@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 
+// Variable for error message
 function Contact() {
   const [errorMessage, setErrorMessage] = useState("");
   function handleChange(event) {
@@ -12,6 +13,9 @@ function Contact() {
       setErrorMessage("");
     }
   }
+
+  // Contact form content.
+  // Include error message variable via a ternary
   return (
     <section>
       <h2>Contact</h2>
@@ -33,4 +37,5 @@ function Contact() {
   );
 }
 
+// Export Contact component
 export default Contact;

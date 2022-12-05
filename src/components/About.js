@@ -2,6 +2,7 @@ import { findByLabelText } from "@testing-library/react";
 import React from "react";
 import MyPhoto from "../assets/images/Renee.png";
 
+//build "About" section below using JSX and JS.
 function About() {
   return (
     <section>
@@ -22,4 +23,5 @@ function About() {
   );
 }
 
+// export component
 export default About;

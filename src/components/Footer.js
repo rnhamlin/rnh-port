@@ -2,6 +2,7 @@ import React from "react";
 import GithubLogo from "../assets/images/GitHub-Mark-64px.png";
 import LinkedInLogo from "../assets/images/Linked.png";
 
+//Footer to contain social media links.
 function Foot() {
   return (
     <footer id="made-by">
@@ -22,4 +23,5 @@ function Foot() {
   );
 }
 
+// Export footer component.
 export default Foot;
