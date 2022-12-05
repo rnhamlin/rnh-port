@@ -13,38 +13,48 @@ function Portfolio() {
         <div>
           <a
             href="https://wilmr.github.io/Music-en-Vivo/index.html"
-            target="_blank">
+            target="_blank"
+            rel="noreferrer">
             <img src={Proj1} alt="Music en Vivo" width={300} />
           </a>
         </div>
         <div>
           <a
             href="https://github.com/rnhamlin/smart-homie/tree/develop"
-            target="_blank">
+            target="_blank"
+            rel="noreferrer">
             <img src={Proj2} alt="Smart Homies" width={300} />
           </a>
         </div>
         <div>
-          <a href="" target="_blank">
+          <a
+            href="https://github.com/laceyaguigam/Break-Away"
+            target="_blank"
+            rel="noreferrer">
             <img src={Proj3} alt="TBA" width={300} />
           </a>
         </div>
         <div>
-          <a href="https://rnhamlin.github.io/weatherwiz/" target="_blank">
+          <a
+            href="https://rnhamlin.github.io/weatherwiz/"
+            target="_blank"
+            rel="noreferrer">
             <img src={Proj4} alt="Weather Wizard" width={300} />
           </a>
         </div>
         <div>
           <a
             href="https://github.com/rnhamlin/workdayscheduler"
-            target="_blank">
+            target="_blank"
+            rel="noreferrer">
             <img src={Proj5} alt="Workday Scheduler" width={300} />
           </a>
         </div>
         <div>
           <a
             href="https://github.com/rnhamlin/password-jamboree"
-            target="_blank">
+            target="_blank"
+            rel="noreferrer">
             <img src={Proj6} alt="Password Jamboree" width={300} />
           </a>
         </div>

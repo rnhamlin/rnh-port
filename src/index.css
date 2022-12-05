@@ -81,6 +81,13 @@ footer {
 #made-by {
   display: flex;
 }
+
+#social-media {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
 /* Portfolio styling */
 
 #gallery {
