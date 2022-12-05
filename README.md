@@ -13,11 +13,8 @@ This portfolio is intended to highlight the skills Renee Hamlin has learned, as 
 
 ## Links
 
-Deployed link: 
-
-
+Deployed link:
 
 ## Screenshot
 
-
-
+![Deployed Photo](Screenshot.png)
