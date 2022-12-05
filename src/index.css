@@ -7,14 +7,18 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #2e235c;
-  background-image: linear-gradient(180deg, #2e235c 49%, #dbacd1 100%);
-  background-repeat: repeat-n;
+  background-image: linear-gradient(180deg, #2e235c 69%, #dbacd1 100%);
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: #a29db5;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+/*Nav bar styling*/
 
 .section-links {
   display: flex;
@@ -29,11 +33,15 @@ ul {
   margin: 0; /* Remove margins */
   display: flex;
   justify-content: space-around;
+  color: #dbacd1;
 }
 
-/* p {
-  margin: 35px;
-} */
+ul.hover {
+  color: whitesmoke;
+}
+
+/* body styling */
+
 h1 {
   margin: 15px;
 }
@@ -42,12 +50,42 @@ h2 {
   margin: 15px;
 }
 
+/* About page styling */
+
 #photo-bio {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
+  margin-left: 45px;
+  margin-right: 70px;
 }
 
 #bio-p {
-  margin: 20px;
+  margin-left: 50px;
 }
+
+/* Footer styling */
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  color: whitesmoke;
+  height: 10px;
+  position: absolute;
+  width: 100%;
+  height: 15%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+#made-by {
+  display: flex;
+}
+/* Portfolio styling */
+
+/* Contact styling */
+
+/* Resume styling */

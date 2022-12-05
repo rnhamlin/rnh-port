@@ -6,6 +6,7 @@ import About from "./components/About.js";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 import Resume from "./components/Resume";
+import Foot from "./components/Footer";
 
 //JXS code below (Javascript + HTML)
 
@@ -20,6 +21,7 @@ function App() {
         {currentPage === "Contact" ? <Contact></Contact> : <></>}
         {currentPage === "Resume" ? <Resume></Resume> : <></>}
       </main>
+      <Foot></Foot>
     </div>
   );
 }

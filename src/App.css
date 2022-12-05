@@ -1,7 +1,7 @@
 .App {
   text-align: center;
   background-color: #2e235c;
-  background-image: linear-gradient(180deg, #2e235c 12%, #dbacd1 100%);
+  background-image: linear-gradient(180deg, #2e235c 100%, #dbacd1 100%);
 }
 
 .App-header {
