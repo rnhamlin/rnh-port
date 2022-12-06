@@ -1,4 +1,5 @@
 //UseState is the "hook" to connect components for navigation purposes between sections/components (+ many other things)
+import "App.css";
 import React, { useState } from "react";
 import Nav from "./components/Nav.js";
 import About from "./components/About.js";
