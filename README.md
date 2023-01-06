@@ -13,7 +13,7 @@ This portfolio is intended to highlight the skills Renee Hamlin has learned, as 
 
 ## Links
 
-Deployed link:
+Deployed link: https://rnhamlin.github.io/rnh-port/
 
 ## Screenshot
 
